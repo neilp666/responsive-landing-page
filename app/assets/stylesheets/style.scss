@@ -1,0 +1,32 @@
+/* -----------------------------------
+
+Primary Style
+
+--------------------------------------*/
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  @include box-sizing(border-box)
+}
+
+body {
+  font: {
+    size: 100%;
+    family: $primary-font;
+  }
+  color: $color-3;
+  background-color: $background;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* -------------------------------- 
+Modules - reusable parts of our design
+-------------------------------- */
